@@ -1,5 +1,5 @@
 {
-  "deed/history/12345678A00": {
+  "deed/history": {
     "status": true,
     "data": [
       {
@@ -28,7 +28,7 @@
       }
     ]
   },
-  "deed/caveats/12345678A00": {
+  "deed/caveats": {
     "status": true,
     "data": [
       {
@@ -47,7 +47,7 @@
       }
     ]
   },
-  "deed/bonds/12345678A00": {
+  "deed/bonds": {
     "status": true,
     "data": [
       {
