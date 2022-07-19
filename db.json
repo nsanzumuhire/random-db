@@ -1,70 +1,67 @@
 {
-  "deed/history": {
-    "status": true,
-    "data": [
-      {
-        "referenceNumber": "454-54-45",
-        "transferDate": "24/07/2009",
-        "transferosNames": "Daniel Flex",
-        "transfereeNames": "Alleluya Iradukunda",
-        "amount": "$100,000",
-        "fileNumber": "REF9844"
-      },
-      {
-        "referenceNumber": "00-54-45",
-        "transferDate": "20/07/2021",
-        "transferosNames": "John Doe",
-        "transfereeNames": "Alleluya Iradukunda",
-        "amount": "$500,000",
-        "fileNumber": "REF2844"
-      },
-      {
-        "referenceNumber": "A2-54-45",
-        "transferDate": "24/07/2008",
-        "transferosNames": "Daniel Flex",
-        "transfereeNames": "Alleluya Iradukunda",
-        "amount": "$100,000",
-        "fileNumber": "REF9844"
-      }
-    ]
-  },
-  "deed/caveats": {
-    "status": true,
-    "data": [
-      {
-        "referenceNumber": "454-54-45",
-        "caseNumber": "34-34343",
-        "registrationDate": "24/07/2008",
-        "status": "PENDING",
-        "amount": "$560,000"
-      },
-      {
-        "referenceNumber": "404-54-45",
-        "caseNumber": "34-34343",
-        "registrationDate": "24/07/2008",
-        "status": "PENDING",
-        "amount": "$560,000"
-      }
-    ]
-  },
-  "deed/bonds": {
-    "status": true,
-    "data": [
-      {
-        "referenceNumber": "894-54-45",
-        "mortgatorNames": "Nsanzumuhire Daniel",
-        "mortgateeNames": "Flexatron Doe",
-        "raking": 1,
-        "status": "APPROVED",
-        "amount": "$560,000"
-      },
-      {
-        "referenceNumber": "404-54-45",
-        "caseNumber": "34-34343",
-        "registrationDate": "24/07/2008",
-        "status": "PENDING",
-        "amount": "$560,000"
-      }
-    ]
-  }
+	"deed/history/12345678A00": {
+		"status": true,
+		"data": [{
+				"referenceNumber": "454-54-45",
+				"transferDate": "24/07/2009",
+				"transferosNames": "Daniel Flex",
+				"transfereeNames": "Alleluya Iradukunda",
+				"amount": "$100,000",
+				"fileNumber": "REF9844"
+			},
+			{
+				"referenceNumber": "00-54-45",
+				"transferDate": "20/07/2021",
+				"transferosNames": "John Doe",
+				"transfereeNames": "Alleluya Iradukunda",
+				"amount": "$500,000",
+				"fileNumber": "REF2844"
+			},
+			{
+				"referenceNumber": "A2-54-45",
+				"transferDate": "24/07/2008",
+				"transferosNames": "Daniel Flex",
+				"transfereeNames": "Alleluya Iradukunda",
+				"amount": "$100,000",
+				"fileNumber": "REF9844"
+			}
+		]
+	},
+	"deed/caveats/12345678A00": {
+		"status": true,
+		"data": [{
+				"referenceNumber": "454-54-45",
+				"caseNumber": "34-34343",
+				"registrationDate": "24/07/2008",
+				"status": "PENDING",
+				"amount": "$560,000"
+			},
+			{
+				"referenceNumber": "404-54-45",
+				"caseNumber": "34-34343",
+				"registrationDate": "24/07/2008",
+				"status": "PENDING",
+				"amount": "$560,000"
+			}
+		]
+	},
+	"deed/bonds/12345678A00": {
+		"status": true,
+		"data": [{
+				"referenceNumber": "894-54-45",
+				"mortgatorNames": "Nsanzumuhire Daniel",
+				"mortgateeNames": "Flexatron Doe",
+				"raking": 1,
+				"status": "APPROVED",
+				"amount": "$560,000"
+			},
+			{
+				"referenceNumber": "404-54-45",
+				"caseNumber": "34-34343",
+				"registrationDate": "24/07/2008",
+				"status": "PENDING",
+				"amount": "$560,000"
+			}
+		]
+	}
 }
